@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SachiRaw Creative Agency - Web, Graphic, Video Ads.">
+    <title>SachiRaw | Creative Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <header>
+        <nav>
+            <div class="logo">SachiRaw</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:0701240951" class="header-phone">📞 0701240951</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="content">
+                <h1>We Create <br><span class="neon-text">Digital Magic</span></h1>
+                <p>Web • Graphic • Video Ads</p>
+                <a href="#contact" class="cta-button">Start a Project</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="content glass-panel">
+                <h2>About Us</h2>
+                <p>We are SachiRaw, a modern creative agency dedicated to elevating your brand through stunning visuals, immersive web experiences, and high-impact video ads. We bring your wildest ideas into the third dimension.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="content glass-panel">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Web Development</h3>
+                        <p>Immersive, performant, and 3D interactive websites that captivate audiences.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Graphic Design</h3>
+                        <p>Striking visual identities, modern UI/UX, and timeless branding.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Video Ads</h3>
+                        <p>High-conversion promotional videos tailored for digital platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="content glass-panel">
+                <h2>Latest Work</h2>
+                <p>Check out our recent WordPress development projects.</p>
+                <div class="portfolio-grid">
+                    <a href="http://www.lufthlankatours.com" target="_blank" class="portfolio-card">
+                        <img src="assets/lufthlanka.png" alt="Lufth Lanka Tours">
+                        <div class="portfolio-info">
+                            <h3>Lufth Lanka Tours</h3>
+                            <span>Travel & Tourism</span>
+                        </div>
+                    </a>
+                    <a href="http://thesampatha.com" target="_blank" class="portfolio-card">
+                        <img src="assets/thesampatha.png" alt="The Sampatha">
+                        <div class="portfolio-info">
+                            <h3>The Sampatha</h3>
+                            <span>News & Magazine</span>
+                        </div>
+                    </a>
+                    <a href="http://sevenseas.lk" target="_blank" class="portfolio-card">
+                        <img src="assets/sevenseas.png" alt="Seven Seas">
+                        <div class="portfolio-info">
+                            <h3>Seven Seas</h3>
+                            <span>Maritime & Shipping</span>
+                        </div>
+                    </a>
+                    <a href="http://harithathaksalawa.com" target="_blank" class="portfolio-card">
+                        <img src="assets/haritha.png" alt="Haritha Thaksalawa">
+                        <div class="portfolio-info">
+                            <h3>Haritha Thaksalawa</h3>
+                            <span>Education Academy</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="content glass-panel">
+                <h2>Let's Connect</h2>
+                <div class="conversational-form">
+                    <p>
+                        Hi SachiRaw! My name is <input type="text" id="wa-name" placeholder="your name" class="inline-input">. <br><br>
+                        I'm looking to build a <select id="wa-service" class="inline-input">
+                            <option value="Website">Website</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Video Ad">Video Ad</option>
+                        </select> for my brand.<br><br>
+                        My budget is approximately <select id="wa-budget" class="inline-input">
+                            <option value="under $500">under $500</option>
+                            <option value="$500 - $1000">$500 - $1000</option>
+                            <option value="$1000+">$1000+</option>
+                        </select>, and you can reach me back at this number or <input type="text" id="wa-contact" placeholder="email address" class="inline-input">.<br><br>
+                        Let's create some digital magic together!
+                    </p>
+                    <button id="wa-submit" class="cta-button" style="margin-top: 2rem;">Send to WhatsApp</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SachiRaw Creative Agency. All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94701240951" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
+            <path d="M16 2.5a13.44 13.44 0 00-11.66 20l-1.84 5.51a1 1 0 001.25 1.25l5.51-1.84A13.44 13.44 0 1016 2.5zm0 24.89a11.41 11.41 0 01-5.83-1.6.94.94 0 00-.51-.12l-3.88 1.3 1.3-3.88a.94.94 0 00-.09-.64A11.45 11.45 0 1116 27.39zm6-8.21c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17s-.85 1.07-1.04 1.29c-.19.22-.38.25-.71.08a9.23 9.23 0 01-2.73-1.68 10.23 10.23 0 01-1.89-2.35c-.19-.33-.02-.51.15-.68.15-.15.33-.38.5-.57a2.23 2.23 0 00.33-.55.6.6 0 00-.03-.57c-.08-.17-.74-1.79-1-2.45-.27-.65-.54-.56-.74-.57l-.63-.01c-.22 0-.58.08-.88.42a2.69 2.69 0 00-.85 2 4.69 4.69 0 001 2.45 10.74 10.74 0 004.14 3.65c.67.28 1.18.45 1.58.58.67.21 1.28.18 1.76.11.54-.08 1.66-.68 1.89-1.34.23-.66.23-1.22.16-1.34-.07-.11-.27-.17-.6-.34z"/>
+        </svg>
+    </a>
+
+    <!-- Three.js (Lightweight core) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
